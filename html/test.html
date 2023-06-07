@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <script src="test.js"></script>
+    <title>Site Test</title>
+</head>
+
+<body>
+    <h1>Site</h1>
+    <h2>Sous titre</h2>
+    <h3>Bla</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure neque porro eveniet, nobis reprehenderit assumenda
+        enim ratione vitae quaerat libero corporis error dicta temporibus necessitatibus asperiores deserunt! Vitae,
+        maxime rem.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure neque porro eveniet, nobis reprehenderit assumenda
+        enim ratione vitae quaerat libero corporis error dicta temporibus necessitatibus asperiores deserunt! Vitae,
+        maxime rem.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure neque porro eveniet, nobis reprehenderit assumenda
+        enim ratione vitae quaerat libero corporis error dicta temporibus necessitatibus asperiores deserunt! Vitae,
+        maxime rem.</p>
+    <h2>Sous titre</h2>
+    <h3>Bla</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure neque porro eveniet, nobis reprehenderit assumenda
+        enim ratione vitae quaerat libero corporis error dicta temporibus necessitatibus asperiores deserunt! Vitae,
+        maxime rem.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure neque porro eveniet, nobis reprehenderit assumenda
+        enim ratione vitae quaerat libero corporis error dicta temporibus necessitatibus asperiores deserunt! Vitae,
+        maxime rem.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure neque porro eveniet, nobis reprehenderit assumenda
+        enim ratione vitae quaerat libero corporis error dicta temporibus necessitatibus asperiores deserunt! Vitae,
+        maxime rem.</p>
+    <a href="https://www.google.fr" target="_blank">google</a><br>
+
+    <ul>
+        <li>Monuments</li>
+        <li>Restaurants
+            <ul>
+                <li>Bars</li>
+                <li>Cafés</li>
+            </ul>
+        </li>
+        <li>Musées</li>
+        <li>Parcs</li>
+        <li>Divertissements</li>
+        <ul>
+            <li>Bowling</li>
+            <li>Cinéma</li>
+        </ul>
+    </ul>
+
+
+    <table>
+        <tr>
+            <th>Image</th>
+            <th style="width:20%">Nom</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td><a href="https://www.lego.com/fr-fr/themes/lego-originals/about" target="_blank">
+                    <img src="C:\Users\PC prêt\Downloads\lego.jpg" width=200 alt="Site du Lego Store"
+                        title="Lego Store">
+                </a></td>
+            <td>Lego</td>
+            <td>Briques de construction en plastique</td>
+        </tr>
+        <tr>
+            <td><a href="https://loophero.fandom.com/wiki/Loop_Hero_Wiki" target="_blank">
+                    <img src="C:\Users\PC prêt\Downloads\R.jpg" width=200 alt="Loop Hero Wiki" title="Loop Hero Wiki">
+                </a></td>
+            <td>Loop Hero</td>
+            <td>Jeu-vidéo</td>
+        </tr>
+        <tr>
+            <td><a href="https://discord.com/" target="_blank">
+                    <img src="C:\Users\PC prêt\Downloads\OIP (1).jpg" height=100 alt="Discord" title="Discord">
+                </a></td>
+            <td>Discord</td>
+            <td>Lorem ipsum </td>
+        </tr>
+        <tr>
+            <td><a href="https://www.figma.com/" target="_blank">
+                    <img src="C:\Users\PC prêt\Downloads\figma-03.jpg" width=200 alt="Figma" title="Figma">
+                </a></td>
+            <td>Figma</td>
+            <td>Lorem ipsum </td>
+        </tr>
+        <tr>
+            <td><a href="https://www.youtube.com/" target="_blank">
+                    <img src="C:\Users\PC prêt\Downloads\R (1).jpg" width=200 alt="Youtube" title="Youtube">
+                </a></td>
+            <td>Youtube</td>
+            <td>Lorem ipsum </td>
+        </tr>
+    </table><br>
+
+
+
+    <h2>Votre réservation d'hôtel</h2>
+    <h3>* champs obligatoires</h3>
+    <form method="get">
+        <label>Votre nom*: <br>
+            <input type="text" placeholder="Scott" name="nom" required></label><br><br>
+        <label>Votre prénom*: <br>
+            <input type="text" placeholder="Michael" name="prenom" required></label><br><br>
+        <label>Votre numéro de téléphone*: <br>
+            <input type="tel" placeholder="0605040302" required name="tel"></label><br><br>
+        <label>Votre adresse e-mail*: <br>
+            <input type="email" placeholder="reserver@hotel.com" required name="mail"></label><br><br>
+        Selectionner la ville :<br><select name="ville">
+                <option value="Lille" selected>Lille</option>
+                <option value="Paris">Paris</option>
+                <option value="Bordeaux">Bordeaux</option>
+                <option value="Marseille">Marseille</option>
+                <option value="Nantes">Nantes</option>
+                <option value="Lyon">Lyon</option>
+                <option value="La Rochelle">La Rochelle</option>
+                <option value="Poitiers">Poitiers</option>
+                <option value="Toulouse">Toulouse</option>
+            </select><br><br>
+            Date d'arrivée :<br>
+            <input name="setTodaysDate" type="date"><br><br>
+            Nombre de personnes*:<br>
+            <input type="number" value="1" min="1" max="5" name="Personnes"><br><br>
+            Vos options :<br>
+            <label>Climatisation<input type="checkbox" name="Opt1">
+                &ensp;</label><label>Mini-bar<input type="checkbox" name="Opt2">
+                &ensp;</label><label>Jacuzzi<input type="checkbox" name="Opt3"></label><br><br>
+            <textarea placeholder="Ajouter un commentaire" name="Comment"></textarea><br><br>
+            Acceptation des Conditions Générales de Vente (CGV)*<br><label><input type="radio"
+                    name="CGV" required>J'accepte</label>
+                    &ensp;<label><input type="radio" name="CGV" checked>Je refuse</label><br><br>
+            <button type="submit" name="submit">Envoyer ma
+                demande</button><br><br>
+              
+    </form>
+</body>
+
+</html>
+
+nom=Scott
+prenom=Michael
+tel=060606
+mail=m%40m.com
+ville=Lille
+Date=2023-06-06
+Personnes=1
+Opt1=on
+Comment=iubmiub
+CGV=on
+submit=

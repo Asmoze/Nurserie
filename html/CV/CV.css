@@ -1,0 +1,15 @@
+header{color:rgb(43, 43, 43) ;background: rgb(21,33,48);
+    background: rgb(176,187,198);
+    background: linear-gradient(0deg, rgba(176,187,198,1) 0%, rgba(6,138,164,1) 97%);
+    display:flex; height: 100px;align-items: center;clear: right; border:50px}
+
+body{color: rgb(43, 43, 43);font-family: Arial, sans-serif;margin: 0; background-color: rgb(228, 228, 228);}
+
+section{margin:10px; background-color: rgb(241, 241, 241);border-radius:25px; width:400px; height: 500px;box-shadow: 0px 5px 5px rgb(123, 123, 123); text-align: left;}
+
+h2{font-size:20px;text-align: center;}
+h3{font-size: 15px;}
+
+.center{display: flex; justify-content:center}
+
+.icon{ margin-left: auto; display: block;}
